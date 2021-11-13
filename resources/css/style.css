@@ -66,6 +66,7 @@ a {
 }
 a:hover {
 	text-decoration: underline;
+	color: #fff;
 }
 /* Header */
 #header input, .mobile {
@@ -177,8 +178,16 @@ html[dir="rtl"] .foot_right {
 #footer .copyright {
 	font-size: 11px;
 }
-#footer .copyright .by, #footer .copyright .by a {
+#footer .copyright .by {
 	color: var(--color-text-link);
+}
+
+#footer a {
+	color: var(--color-text-link);
+}
+
+#footer a:hover {
+	color: #dafbe1;
 }
 #footer .connect {
 	display: inline-block;

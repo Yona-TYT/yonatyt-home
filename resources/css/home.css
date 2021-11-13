@@ -40,6 +40,13 @@ h2{
 	color:inherit;
 	text-decoration:none
 }
+.headline:hover {
+	color: #dafbe1;
+}
+.feature:hover {
+	color: #fff;
+}
+
 #download{
 	text-align:center;
 	padding:20px
@@ -86,7 +93,7 @@ h2{
 .half img:not(.sicon){
 	display:block;
 	margin:10px;
-	width:100%;
+	width:85%;
 	max-height:370px;
 	max-width:500px
 }
